@@ -53,7 +53,9 @@ textarea {
 
 .logo {
     // .logo__pic
-    &__pic {}
+    &__pic {
+        display: block;
+    }
     // .logo__img
     &__img {
         height: 50px;
@@ -103,7 +105,7 @@ textarea {
 
 /* @hero */
 
-.section-hero {
+.hero {
     min-height: 800px;
     background-repeat: no-repeat;
     background-position: top center;
@@ -193,6 +195,94 @@ textarea {
 }
 
 
+/* @advantages */
+
+.advantages {
+    // .advantages__header
+    &__header {
+        height: 350px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: var(--text-light);
+    }
+    // .advantages__title
+    &__title {
+        text-transform: uppercase;
+    }
+}
+
+.advantages-block {}
+
+.advantages-cards {
+    align-items: stretch;
+    padding: 50px 0px;
+}
+
+.advantages-card {
+    text-align: center;
+    width: 33.333%;
+    padding: 25px;
+    margin-bottom: 30px;
+    // .advantages-card__pic
+    &__pic {
+        display: block;
+    }
+    // .advantages-card__img
+    &__img {
+        width: 100px;
+        height: auto;
+    }
+    // .advantages-card__title
+    &__title {
+        text-transform: uppercase;
+        color: var(--text-accent);
+        font-size: 20px;
+    }
+    // .advantages-card__desc
+    &__desc {
+        line-height: 22px;
+    }
+}
+
+
+/* @about */
+
+.about {
+    display: flex;
+    align-items: center;
+    min-height: 350px;
+    color: var(--text-light);
+}
+
+.about-button {
+    width: 50%;
+    text-align: center;
+    // .about-button__link
+    &__link {}
+}
+
+.about-inner {}
+
+.about-content {
+    width: 50%;
+    // .about-content__title
+    &__title {
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    // .about-content__span
+    &__span {
+        color: var(--text-accent);
+    }
+    // .about-content__desc
+    &__desc {
+        line-height: 24px;
+    }
+}
+
+
 /* 
 
 
@@ -235,11 +325,19 @@ textarea {
         flex-direction: column;
         padding-left: 10px;
     }
-    .hero {
+    .hero,
+    .advantages-block {
         background-size: cover;
         background-position: center;
     }
     .hero__inner {
+        width: 100%;
+    }
+    .advantages-card {
+        width: 50%;
+    }
+    .about-content,
+    .about-button {
         width: 100%;
     }
 }
@@ -280,6 +378,9 @@ textarea {
         text-align: center;
         font-size: 16px;
     }
+    .about-content__title {
+        font-size: 16px;
+    }
     .doors {
         flex-wrap: wrap;
     }
@@ -295,5 +396,11 @@ textarea {
         height: 120px;
         font-size: 12px;
         font-weight: bold;
+    }
+    .advantages-card {
+        width: 100%;
+    }
+    .about {
+        padding-bottom: 20px;
     }
 }
