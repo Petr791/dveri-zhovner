@@ -270,6 +270,143 @@ textarea {
   line-height: 24px;
 }
 
+/* @popular */
+.popular {
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.popular-header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 0px;
+}
+.popular-header__title {
+  color: var(--text-small);
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.popular-header__title::before, .popular-header__title::after {
+  display: block;
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: var(--text-accent);
+  margin: 20px;
+}
+
+.popular-product {
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+.popular-product__pic {
+  display: block;
+}
+.popular-product__img {
+  width: 100%;
+  height: auto;
+}
+.popular-product__title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.popular-button {
+  width: 100%;
+  text-align: center;
+}
+
+/* @answer */
+/* Форма обратной связи */
+.answer {
+  background-size: cover;
+  padding: 50px 0px;
+  color: var(--text-light);
+}
+
+.answer-block {
+  width: 33.333%;
+  padding: 30px;
+}
+.answer-block__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.answer-block__desc {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.answer-form input:not([type=submit]) {
+  border: none;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.answer-form button.btn,
+.answer-form input[type=submit].btn {
+  border-color: var(--text-light);
+  color: var(--text-light);
+  display: block;
+  margin: 0 auto;
+}
+
+.answer-form button.btn:hover,
+.answer-form input[type=submit].btn:hover {
+  border-color: var(--text-accent);
+}
+
+.answer-card {
+  text-align: center;
+  width: 33.333%;
+  padding: 30px;
+}
+.answer-card__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+}
+.answer-card__desc {
+  line-height: 24px;
+}
+
+/* @footer  */
+.footer {
+  text-transform: uppercase;
+  padding: 30px 0px;
+}
+
+.footer-content {
+  width: 100%;
+  text-align: center;
+}
+.footer-content__link {
+  color: var(--text-small);
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.footer-content__link:hover {
+  color: var(--text-accent);
+  border-bottom: 1px solid var(--text-accent);
+}
+.footer-content__span {
+  color: var(--text-accent);
+}
+
 /* 
 
 
@@ -307,18 +444,24 @@ textarea {
     padding-left: 10px;
   }
   .hero,
-.advantages-block {
+.advantages-block,
+.answer {
     background-size: cover;
     background-position: center;
   }
   .hero__inner {
     width: 100%;
   }
-  .advantages-card {
+  .advantages-card,
+.popular-product,
+.answer-card {
     width: 50%;
   }
   .about-content,
 .about-button {
+    width: 100%;
+  }
+  .answer-block {
     width: 100%;
   }
 }
@@ -328,7 +471,9 @@ textarea {
     max-width: 540px;
   }
   .hero__title::before,
-.hero__title::after {
+.hero__title::after,
+.popular-header__title::before,
+.popular-header__title::after {
     width: 40px;
   }
   .door__name {
@@ -351,7 +496,8 @@ textarea {
   .hero {
     padding-bottom: 20px;
   }
-  .hero__title {
+  .hero__title,
+.popular-header__title {
     text-align: center;
     font-size: 16px;
   }
@@ -375,7 +521,9 @@ textarea {
     font-size: 12px;
     font-weight: bold;
   }
-  .advantages-card {
+  .advantages-card,
+.popular-product,
+.answer-card {
     width: 100%;
   }
   .about {

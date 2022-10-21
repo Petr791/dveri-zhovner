@@ -283,6 +283,173 @@ textarea {
 }
 
 
+/* @popular */
+
+.popular {
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.popular-header {
+    justify-content: center;
+    padding: 30px 0px;
+    //
+    &__title {
+        color: var(--text-small);
+        text-transform: uppercase;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    &__title::before,
+    &__title::after {
+        display: block;
+        content: '';
+        width: 100px;
+        height: 5px;
+        background-color: var(--text-accent);
+        margin: 20px
+    }
+}
+
+.popular-products {}
+
+.popular-product {
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    // .popular-product__pic
+    &__pic {
+        display: block;
+    }
+    // .popular-product__img
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+    // .popular-product__title
+    &__title {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    // .popular-product__price
+    &__price {}
+    // .popular-product__btn
+    &__btn {}
+}
+
+.popular-button__wrapper {}
+
+.popular-button {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* @answer */
+
+
+/* Форма обратной связи */
+
+.answer {
+    background-size: cover;
+    padding: 50px 0px;
+    color: var(--text-light);
+}
+
+.answer-row {}
+
+.answer-block {
+    width: 33.333%;
+    padding: 30px;
+    // .answer-block__title
+    &__title {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    // .answer-block__desc
+    &__desc {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+.answer-form {}
+
+.answer-form__input {}
+
+.answer-form input:not([type="submit"]) {
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.answer-form button.btn,
+.answer-form input[type="submit"].btn {
+    border-color: var(--text-light);
+    color: var(--text-light);
+    display: block;
+    margin: 0 auto;
+}
+
+.answer-form button.btn:hover,
+.answer-form input[type="submit"].btn:hover {
+    border-color: var(--text-accent);
+}
+
+.answer-card {
+    text-align: center;
+    width: 33.333%;
+    padding: 30px;
+    // .answer-card__pic
+    &__pic {}
+    // .answer-card__img
+    &__img {}
+    // .answer-card__title
+    &__title {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    // .answer-card__desc
+    &__desc {
+        line-height: 24px;
+    }
+}
+
+
+/* @footer  */
+
+.footer {
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+
+.footer-row {}
+
+.footer-content {
+    width: 100%;
+    text-align: center;
+    // .footer-content__link
+    &__link {
+        color: var(--text-small);
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    &__link:hover {
+        color: var(--text-accent);
+        border-bottom: 1px solid var(--text-accent);
+    }
+    // .footer-content__span
+    &__span {
+        color: var(--text-accent);
+    }
+}
+
+
 /* 
 
 
@@ -326,18 +493,24 @@ textarea {
         padding-left: 10px;
     }
     .hero,
-    .advantages-block {
+    .advantages-block,
+    .answer {
         background-size: cover;
         background-position: center;
     }
     .hero__inner {
         width: 100%;
     }
-    .advantages-card {
+    .advantages-card,
+    .popular-product,
+    .answer-card {
         width: 50%;
     }
     .about-content,
     .about-button {
+        width: 100%;
+    }
+    .answer-block {
         width: 100%;
     }
 }
@@ -350,7 +523,9 @@ textarea {
         max-width: 540px;
     }
     .hero__title::before,
-    .hero__title::after {
+    .hero__title::after,
+    .popular-header__title::before,
+    .popular-header__title::after {
         width: 40px;
     }
     .door__name {
@@ -374,7 +549,8 @@ textarea {
     .hero {
         padding-bottom: 20px;
     }
-    .hero__title {
+    .hero__title,
+    .popular-header__title {
         text-align: center;
         font-size: 16px;
     }
@@ -397,7 +573,9 @@ textarea {
         font-size: 12px;
         font-weight: bold;
     }
-    .advantages-card {
+    .advantages-card,
+    .popular-product,
+    .answer-card {
         width: 100%;
     }
     .about {
