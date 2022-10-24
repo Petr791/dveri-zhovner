@@ -6,4 +6,4 @@
 
 
 ![https://github.com/Petr791/dveri-zhovner/blob/main/Screenshot_2.png]()
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/Screenshot_2.png)](https://github.com/Petr791/dveri-zhovner)
