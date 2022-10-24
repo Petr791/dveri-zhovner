@@ -744,29 +744,120 @@ textarea {
   text-transform: uppercase;
 }
 
-/* 
+/* @door-template */
+.door-template {
+  padding: 80px 0;
+  background-color: #eee;
+}
 
+.door-row {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
 
-*/
+.door-col {
+  width: 50%;
+}
+
+.door-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.door-gallery__box {
+  padding: 10px;
+  display: block;
+  width: 40%;
+}
+.door-gallery__box:first-child {
+  width: 80%;
+}
+.door-gallery__pic {
+  display: block;
+}
+.door-gallery__img {
+  width: 100%;
+}
+
 /*  */
-/* 
+.door-description__title {
+  font-size: 30px;
+  color: var(--text-accent);
+  text-transform: uppercase;
+}
+.door-description__span {
+  color: var(--text-dark);
+  text-transform: lowercase;
+  font-size: 14px;
+  vertical-align: top;
+}
+.door-description__text {
+  font-size: 18px;
+  line-height: 26px;
+}
+.door-description__price {
+  font-size: 26px;
+  color: var(--text-accent);
+  text-transform: uppercase;
+}
 
+/*  */
+.door-form__btn {
+  margin: 0 0 15px;
+}
 
+.door-description form input:not([type=submit]),
+.door-description form textarea {
+  display: block;
+  border: 1px solid var(--text-small);
+  width: 320px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 17px;
+}
 
+.door-description form textarea {
+  resize: vertical;
+  height: 100px;
+  min-height: 100px;
+  max-height: 300px;
+}
 
+/*  */
+.door-table {
+  margin-bottom: 50px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.door-table__title {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: var(--text-accent);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.door-table__tr {
+  border-bottom: 2px solid var(--text-dark);
+}
+.door-table__td {
+  padding: 10px;
+}
+.door-table__td:first-child {
+  width: 30%;
+  color: var(--text-accent);
+  font-weight: bold;
+}
 
+.door-information__btn {
+  margin: 0 0 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-*/
+/*  */
 /* Адаптивная версия */
 /* lg */
 @media (max-width: 1025px) {
@@ -835,6 +926,23 @@ textarea {
   .information-grid-col {
     width: 50%;
   }
+  .door-col {
+    width: 100%;
+  }
+  .door-description {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .door-gallery {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+  .door-btn-wrapper {
+    text-align: center;
+  }
 }
 /* md */
 @media (max-width: 825px) {
@@ -853,11 +961,31 @@ textarea {
     font-size: 12px;
     font-weight: bold;
   }
+  .door-gallery__box {
+    /*  width: 50%; */
+  }
 }
 @media (max-width: 560px) {
   .portfolio-content__img {
     /* width: 100%;
     height: auto; */
+  }
+  .contacts-inner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts-card {
+    /* width: 100%; */
+    width: 60%;
+  }
+  .contacts-block__title {
+    text-align: center;
+  }
+  .contacts-dealers__title {
+    text-align: center;
   }
 }
 /* sm */
@@ -945,4 +1073,11 @@ textarea {
   .information-grid-col {
     width: 100%;
   }
+}
+/* Wordpress */
+.menu-item {
+  display: inline !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
