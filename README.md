@@ -11,19 +11,11 @@
 
 
 
-## Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-
 
 ### Технологии
 
 В проекте используются следующие технологии:
 
 - [mixitup.js] - библиотека для анимированной фильтрации, сортировки, вставки, удаления и многого другого.
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
+- [list.js] - библиотека которая добавляет поиск , сортировку , фильтры и гибкость к простым HTML-спискам , таблицам или чему-либо еще.
+- [baguetteBox.js] - библиотека для создания галлерей.
