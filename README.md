@@ -40,3 +40,16 @@
 [![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/Screenshot_4.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/Screenshot_4.png)
 
 [![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/Screenshot_5.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/Screenshot_5.png)
+
+
+
+
+---
+### Установка на wordpress
+
+---
+
+[![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n1.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n1.png)
+
+[![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n2.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n2.png)
+
