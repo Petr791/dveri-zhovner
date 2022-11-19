@@ -674,7 +674,7 @@ textarea {
 }
 .order-card__time {
   color: var(--text-accent);
-  line-height: 26px;
+  line-height: 22px;
 }
 
 /* order-form */
@@ -946,6 +946,15 @@ textarea {
   .door-btn-wrapper {
     text-align: center;
   }
+  .category-btn {
+    margin: 10px 0px;
+  }
+  .order-card__pic {
+    margin-right: 0px;
+  }
+  .order-card__img {
+    width: 100%;
+  }
 }
 /* md */
 @media (max-width: 825px) {
@@ -1075,6 +1084,9 @@ textarea {
   }
   .information-grid-col {
     width: 100%;
+  }
+  .navigation {
+    margin-top: 10px;
   }
 }
 /* Wordpress */
