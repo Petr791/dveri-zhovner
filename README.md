@@ -53,3 +53,8 @@
 
 [![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n2.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n2.png)
 
+[![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n3.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n3.png)
+
+[![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_14.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_14.png)
+
+
