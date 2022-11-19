@@ -46,7 +46,7 @@
 
 ---
 ### Установка на wordpress
-
+- Произвольные поля с помощью плагина Custom Field Suite
 ---
 
 [![N|Solid](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n1.png)](https://github.com/Petr791/dveri-zhovner/blob/main/img/screenshots/for%20wordpress/Screenshot_n1.png)
